@@ -10,6 +10,7 @@
             margin: 48px auto;
             padding: 0 24px;
             font-family: Helvetica, Arial, sans-serif;
+            font-size: 1.25rem;
             line-height: 1.55;
             color: #111;
             background: #f7f8fa;
@@ -19,7 +20,7 @@
             margin: 0 0 24px;
             padding-bottom: 8px;
             border-bottom: 1px solid #d8dee8;
-            font-size: 1.8rem;
+            font-size: 2.1rem;
             font-weight: 500;
         }
 
@@ -41,7 +42,7 @@
             border: 1px solid #d8dee8;
             border-radius: 6px;
             background: #fff;
-            font-size: 0.88rem;
+            font-size: 1.1rem;
         }
 
         code {
@@ -83,7 +84,7 @@
         .file-note {
             margin: 0;
             color: #444;
-            font-size: 0.95rem;
+            font-size: 1.08rem;
         }
     </style>
 </head>
@@ -95,8 +96,8 @@
     <div class="note">
         <p><strong>Note:</strong> For the Mathematica notebook below, you only need to run the first line of code:</p>
         <pre><code>If[! TrueQ[Private`$ev], Block[{Private`$ev = True}, 
-    Print["Total time: ", First@AbsoluteTiming[ClearAll["Global`*"];
-    NotebookEvaluate[EvaluationNotebook[], InsertResults -&gt; True]], " s"]]]</code></pre>
+     Print["Total time: ", First@AbsoluteTiming[ClearAll["Global`*"];
+     NotebookEvaluate[EvaluationNotebook[], InsertResults -&gt; True]], " s"]]]</code></pre>
         <p>This will automatically evaluate the entire notebook and report its execution time.</p>
         <p><em>Timing results are based on a ROG Strix G16 G614JI with an i9-13980HX chip and 16GB of RAM.</em></p>
     </div>
